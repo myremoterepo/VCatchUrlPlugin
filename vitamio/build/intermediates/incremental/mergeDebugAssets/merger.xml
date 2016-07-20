@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/gex/work/StudioSpace/MiMePlayer/vitamio/src/main/assets"/><source path="/Users/gex/work/StudioSpace/MiMePlayer/vitamio/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/gex/work/StudioSpace/MiMePlayer/vitamio/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\workspacegit\VCatchUrlPlugin\vitamio\src\main\assets"/><source path="F:\workspacegit\VCatchUrlPlugin\vitamio\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\workspacegit\VCatchUrlPlugin\vitamio\src\debug\assets"/></dataSet></merger>

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -37,9 +36,6 @@ public class MainActivity extends Activity {
 
         initData();
         onBindDataToView();
-        Log.i("info", "Model-->:" + Build.MODEL);
-        Log.i("info", "Mac-->:" + getLocalMacAddress(this.getApplicationContext()));
-        Log.i("info", "IMEI-->:" + MiMeApplication.imei);
     }
 
     /**
@@ -120,8 +116,8 @@ public class MainActivity extends Activity {
         mSourceListData = new ArrayList<>();
 
         String name = "youku";
-        String type = "short";
-        String url = "http://v.youku.com/v_show/id_XMTQ5NTc1MjY0OA==.html";
+        String type = "long";
+        String url = "http://v.youku.com/v_show/id_XMTY0OTExMDc2MA==.html?from=s1.8-3-1.1";
         SourceInfo info = new SourceInfo(name, url, type);
         mSourceListData.add(info);
 
@@ -132,14 +128,15 @@ public class MainActivity extends Activity {
 //        mSourceListData.add(infoTest);
 
         name = "qq";
-        type = "short";
-        url = "http://v.qq.com/page/v/9/c/v0307wizu9c.html?ptag=2345.sports";
+        type = "long";
+//        url = "http://v.qq.com/cover/7/7dxcpwu7xlr2304/8fasfLuAnLY.html?ptag=2345.tv";
+        url = "http://v.qq.com/cover/r/raqwei7bl2tkp31.html?vid=v0314uhfu26";
         SourceInfo infoQQ = new SourceInfo(name, url, type);
         mSourceListData.add(infoQQ);
 
         name = "letv";
         type = "long";
-        url = "http://www.le.com/ptv/vplay/24590263.html?ch=2345_dh";
+        url = "http://www.le.com/ptv/vplay/25337573.html";
         SourceInfo infoLetv = new SourceInfo(name, url, type);
         mSourceListData.add(infoLetv);
 
@@ -157,7 +154,7 @@ public class MainActivity extends Activity {
 
         name = "fun";
         type = "long";
-        url = "http://www.fun.tv/vplay/g-300425/";
+        url = "http://www.fun.tv/vplay/g-105597/";
         SourceInfo infoFun = new SourceInfo(name, url, type);
         mSourceListData.add(infoFun);
 

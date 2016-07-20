@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/gex/work/StudioSpace/MiMePlayer/vitamio/build/intermediates/res/merged/androidTest/debug/layout/mediacontroller.xml",
-        "source": "/Users/gex/work/StudioSpace/MiMePlayer/vitamio/build/intermediates/bundles/debug/res/layout/mediacontroller.xml"
+        "merged": "F:\\Users\\gex\\work\\StudioSpace\\MiMePlayer\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
+        "source": "F:\\Users\\gex\\work\\StudioSpace\\MiMePlayer\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "F:\\workspacegit\\VCatchUrlPlugin\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
+        "source": "F:\\workspacegit\\VCatchUrlPlugin\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
     }
 ]

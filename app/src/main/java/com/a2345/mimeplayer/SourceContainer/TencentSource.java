@@ -30,6 +30,12 @@ public class TencentSource extends BaseSource {
                     Log.e("parseurl", "2vid.." + vid);
                 } else {
                     url = PatternUtil.getValueForPattern(htmlContent, "url=\'(.+)\"");
+                    if (url == null){
+                        url = PatternUtil.getValueForPattern(htmlContent, "url=(.+)\"");
+                    }
+                    if (url != null && !url.startsWith("http")){
+                        url = "http://v.qq.com" + url;
+                    }
                     htmlContent = HttpTools.getWebContent(url, null);
                     vid = getVid(htmlContent);
                     Log.e("parseurl", "3vid.." + vid);
