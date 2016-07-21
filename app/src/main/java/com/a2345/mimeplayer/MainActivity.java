@@ -38,6 +38,7 @@ public class MainActivity extends Activity {
         onBindDataToView();
     }
 
+
     /**
      * 获取手机的Mac地址
      */
@@ -121,11 +122,11 @@ public class MainActivity extends Activity {
         SourceInfo info = new SourceInfo(name, url, type);
         mSourceListData.add(info);
 
-//        name = "Test Player";
-//        type = "test";
-//        url = "http://pl.youku.com/playlist/m3u8?ts=1467105471&keyframe=1&vid=XMTYyMjE4MDkwNA==&sid=04671054729472053c9c2&token=9150&oip=1879991562&type=hd2&did=9bc64e589d4162d33c77f80a19dfe323&ctype=20&ev=1&ep=y6ub3LkuptUtHc0CoqXUCIa2r%2F0wztwO7klWoJiAp6KZAk5Sv%2B1kxUoC7UBNUq7m%0A";
-//        SourceInfo infoTest = new SourceInfo(name, url, type);
-//        mSourceListData.add(infoTest);
+        name = "Test Player";
+        type = "test";
+        url = "http://pl.youku.com/playlist/m3u8?ts=1467105471&keyframe=1&vid=XMTYyMjE4MDkwNA==&sid=04671054729472053c9c2&token=9150&oip=1879991562&type=hd2&did=9bc64e589d4162d33c77f80a19dfe323&ctype=20&ev=1&ep=y6ub3LkuptUtHc0CoqXUCIa2r%2F0wztwO7klWoJiAp6KZAk5Sv%2B1kxUoC7UBNUq7m%0A";
+        SourceInfo infoTest = new SourceInfo(name, url, type);
+        mSourceListData.add(infoTest);
 
         name = "qq";
         type = "long";
