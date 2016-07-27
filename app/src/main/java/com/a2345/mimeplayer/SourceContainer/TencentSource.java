@@ -14,31 +14,36 @@ import org.json.JSONObject;
  */
 public class TencentSource extends BaseSource {
     /**http://h5vv.video.qq.com/getinfo?vid=e0020786eop&platform=10901&otype=json&defn=auto&low_login=1&_={1}*/
-    /**vid:"8O933NmPt5v"*/
+    /**
+     * vid:"8O933NmPt5v"
+     */
 
     @Override
     public String getJsonPlayUrl(String url) {
         String vid = null;
         try {
-            String htmlContent = HttpTools.getWebContent(url, null);
-            if (url.contains("vid=")){
+            if (url.contains("vid=")) {
                 vid = PatternUtil.getValueForPattern(url, "vid=([0-9a-z]+)");
                 Log.e("parseurl", "1vid.." + vid);
             } else {
-                if (htmlContent.contains("VIDEO_INFO")){
+                String htmlContent = HttpTools.getWebContent(url, null);
+                if (htmlContent.contains("VIDEO_INFO")) {
                     vid = getVid(htmlContent);
                     Log.e("parseurl", "2vid.." + vid);
                 } else {
-                    url = PatternUtil.getValueForPattern(htmlContent, "url=\'(.+)\"");
-                    if (url == null){
-                        url = PatternUtil.getValueForPattern(htmlContent, "url=(.+)\"");
+                    /*url = url.replace("prev/", "cover/");
+                    String com = PatternUtil.getValueForPattern(url, "(cover/(r/){0,1})");
+                    Log.e("parseurl", "com.." + com);
+                    url = url.replace(com, "x/cover/");*/
+                    if (url.contains("prev/")) {
+                        url = url.replace("prev/", "cover/");
                     }
-                    if (url != null && !url.startsWith("http")){
-                        url = "http://v.qq.com" + url;
+                    if (url.contains("cover/")) {
+                        url = url.replace("cover/", "x/cover/");
                     }
+                    Log.e("parseurl", "url.." + url);
                     htmlContent = HttpTools.getWebContent(url, null);
-                    vid = getVid(htmlContent);
-                    Log.e("parseurl", "3vid.." + vid);
+                    vid = getVidFromHtml(htmlContent);
                 }
             }
         } catch (Exception e) {
@@ -47,17 +52,41 @@ public class TencentSource extends BaseSource {
         return getSource(vid);
     }
 
+    private String getVidFromHtml(String htmlContent) {
+        String vid;
+        if (htmlContent.contains("VIDEO_INFO")) {
+            vid = getVid(htmlContent);
+            Log.e("parseurl", "3vid.." + vid);
+        } else {
+            String url = PatternUtil.getValueForPattern(htmlContent, "url=\'(.+)\"");
+            if (url == null) {
+                url = PatternUtil.getValueForPattern(htmlContent, "url=(.+)\"");
+            }
+            if (url != null && !url.startsWith("http")) {
+                url = "http://v.qq.com" + url;
+            }
+            try {
+                htmlContent = HttpTools.getWebContent(url, null);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            vid = getVid(htmlContent);
+            Log.e("parseurl", "4vid.." + vid);
+        }
+        return vid;
+    }
+
     @Override
     public String getJsonPlayUrlShort(String url) {
         String vid = null;
         String htmlContent = null;
         try {
             htmlContent = HttpTools.getWebContent(url, null);
-            if (url.contains("vid=")){
+            if (url.contains("vid=")) {
                 vid = PatternUtil.getValueForPattern(url, "vid=([0-9a-z]+)");
                 Log.e("parseurl", "1vid.." + vid);
             } else {
-                if (htmlContent.contains("VIDEO_INFO")){
+                if (htmlContent.contains("VIDEO_INFO")) {
                     vid = getVid(htmlContent);
                     Log.e("parseurl", "2vid.." + vid);
                 } else {
@@ -72,7 +101,7 @@ public class TencentSource extends BaseSource {
         return getSource(vid);
     }
 
-    private String getSource(String vid){
+    private String getSource(String vid) {
         String fix = "http://h5vv.video.qq.com/getinfo?vid=%s&platform=10901&otype=json&defn=auto&low_login=1&_={1}";
         JSONObject resultObj = new JSONObject();
         String tmpUrl = String.format(fix, vid);
@@ -105,7 +134,7 @@ public class TencentSource extends BaseSource {
     }
 
 
-    private String getVid(String htmlContent){
+    private String getVid(String htmlContent) {
         String vid = null;
         int i = htmlContent.indexOf("VIDEO_INFO");
         int i1 = htmlContent.indexOf("vid:", i);

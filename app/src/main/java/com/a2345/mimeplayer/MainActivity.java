@@ -54,6 +54,7 @@ public class MainActivity extends Activity {
         }
         return "";
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main, menu);
@@ -62,7 +63,7 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
-        if (item.getItemId() == R.id.to_player){
+        if (item.getItemId() == R.id.to_player) {
             Intent mToPlayerIntent = new Intent();
             mToPlayerIntent.setClass(this, ProtoPlayerActivity.class);
             startActivity(mToPlayerIntent);
@@ -97,11 +98,13 @@ public class MainActivity extends Activity {
                     String playerUrl = mVideoUrlInfo.getPlayUrl();
                     Intent intent = new Intent(MainActivity.this, PlayActivity.class);
                     intent.putExtra("url", playerUrl);
+                    Log.e("parseurl", "playerUrl.." + playerUrl);
                     startActivity(intent);
                 }
             }
         }
     };
+
     private void onPlay(final SourceInfo info, final int position, final String definition) {
         new Thread(new Runnable() {
             @Override
@@ -130,8 +133,8 @@ public class MainActivity extends Activity {
 
         name = "qq";
         type = "long";
-//        url = "http://v.qq.com/cover/7/7dxcpwu7xlr2304/8fasfLuAnLY.html?ptag=2345.tv";
-        url = "http://v.qq.com/cover/r/raqwei7bl2tkp31.html?vid=v0314uhfu26";
+//        url = "http://v.qq.com/cover/7/7dxcpwu7xlr2304/8e0pd98BFvt.html?ptag=2345.tv";
+        url = "http://v.qq.com/cover/r/r11kl0o4vpdo3ah/g0019hf26el.html?ptag=2345.tv";
         SourceInfo infoQQ = new SourceInfo(name, url, type);
         mSourceListData.add(infoQQ);
 

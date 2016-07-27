@@ -39,23 +39,166 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ece3d3b-0209-478d-a0f9-d0f55911240d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/assets/acfun.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSourceBack.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_vitamio_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-21.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-21.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$ComponentSizeChooser.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$ComponentSizeChooser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLConfigChooser.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLConfigChooser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLContextFactory.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLContextFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/EGL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/LibsChecker.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/LibsChecker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaFile.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaFormat.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaFormat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaMetadataRetriever.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaMetadataRetriever.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$EventHandler.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$EventHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/Metadata.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/Metadata.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/R.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/ThumbnailUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/ThumbnailUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/Vitamio.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/Vitamio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity$UIHandler.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity$UIHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio$Media.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio$Media.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$Media.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$Media.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MiniThumbFile.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/provider/MiniThumbFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Decoder.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Decoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Encoder.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Encoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/CPU.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/CPU.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Crypto.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Crypto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Device.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Device.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/FileUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/IOUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/IOUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Log.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/ScreenResolution.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/ScreenResolution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/StringUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/utils/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/CenterLayout.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/CenterLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$2.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$3.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/OutlineTextView.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/OutlineTextView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$2.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$3.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$4.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$5$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$5.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$6.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$7.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$8.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$9.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$ComponentSizeChooser.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$ComponentSizeChooser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLConfigChooser.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLConfigChooser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLContextFactory.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLContextFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/EGL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/LibsChecker.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/LibsChecker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaFile.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaFormat.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaFormat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaMetadataRetriever.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaMetadataRetriever.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$EventHandler.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$EventHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaScanner.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/MediaScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/Metadata.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/Metadata.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/R.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/ThumbnailUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/ThumbnailUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/Vitamio.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/Vitamio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity$UIHandler.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity$UIHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio$Media.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio$Media.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$Media.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$Media.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MiniThumbFile.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/provider/MiniThumbFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Decoder.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Decoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Encoder.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Encoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Base64.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Base64.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/CPU.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/CPU.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Crypto.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Crypto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Device.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Device.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/FileUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/IOUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/IOUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Log.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/Log.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/ScreenResolution.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/ScreenResolution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/StringUtils.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/utils/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/CenterLayout.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/CenterLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$2.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$3.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/OutlineTextView.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/OutlineTextView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$2.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$3.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$4.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$5$1.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$5.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$6.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$7.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$8.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$9.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView.class" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/outputs/aar/vitamio-debug.aar" afterPath="$PROJECT_DIR$/vitamio/build/outputs/aar/vitamio-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/outputs/aar/vitamio-release.aar" afterPath="$PROJECT_DIR$/vitamio/build/outputs/aar/vitamio-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/raw.json" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/blame/res/androidTest/debug/single/raw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/vitamio/build/intermediates/incremental/packageReleaseResources/merger.xml" />
     </list>
     <ignored path="VCatchUrlPlugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,70 +223,17 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+              <caret line="136" column="46" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Catcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java">
+      <file leaf-file-name="TencentSource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoukuSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/YoukuSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="44" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LetvSource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17331813">
-              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41619155">
+              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -2560,7 +2650,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/FunSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -2568,6 +2657,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java" />
       </list>
     </option>
   </component>
@@ -2602,8 +2692,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2638,6 +2726,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2802,7 +2891,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3102,7 +3192,7 @@
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7288694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32381997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3139,6 +3229,174 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/YoukuSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/YoukuSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/YoukuSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/YoukuSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3171,22 +3429,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3214,22 +3460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3245,7 +3479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="28" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3253,7 +3486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3261,7 +3493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="268" column="8" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3277,7 +3508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3300,42 +3530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="268" column="8" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3343,7 +3537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.25655645">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3351,7 +3544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3359,7 +3551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5416192">
           <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3367,14 +3558,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5632839">
           <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/acfun.lua">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3389,7 +3587,23 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/Catcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="41" />
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/acfun.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3397,15 +3611,15 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+          <caret line="136" column="46" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/LetvSource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a2345/mimeplayer/SourceContainer/TencentSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17331813">
-          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.41619155">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding />
         </state>
       </provider>

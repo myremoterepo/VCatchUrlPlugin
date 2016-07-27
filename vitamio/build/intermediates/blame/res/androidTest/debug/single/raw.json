@@ -1,9 +1,5 @@
 [
     {
-        "merged": "F:\\Users\\gex\\work\\StudioSpace\\MiMePlayer\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\libarm.so",
-        "source": "F:\\Users\\gex\\work\\StudioSpace\\MiMePlayer\\vitamio\\build\\intermediates\\bundles\\debug\\res\\raw\\libarm.so"
-    },
-    {
         "merged": "F:\\workspacegit\\VCatchUrlPlugin\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\libarm.so",
         "source": "F:\\workspacegit\\VCatchUrlPlugin\\vitamio\\build\\intermediates\\bundles\\debug\\res\\raw\\libarm.so"
     }
