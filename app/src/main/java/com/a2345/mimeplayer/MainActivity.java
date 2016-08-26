@@ -134,6 +134,7 @@ public class MainActivity extends Activity {
         name = "qq";
         type = "long";
         url = "http://v.qq.com/x/cover/vm3usmzs1wa5yo3/s0021bt1qpe.html?ptag=2345.cartoon";
+//        url = "http://v.qq.com/x/page/n0021zrdqeh.html";
         SourceInfo infoQQ = new SourceInfo(name, url, type);
         mSourceListData.add(infoQQ);
 

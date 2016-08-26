@@ -31,11 +31,7 @@ public class TypeListFragment extends Fragment implements TypeContract.View{
         return sVideoListFragment;
     }
 
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        Log.e("info", "onAttach");
-    }
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

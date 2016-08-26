@@ -1,20 +1,33 @@
 package com.a2345.mimeplayer.SourceContainer;
 
+import android.preference.PreferenceActivity;
+import android.text.TextUtils;
 import android.util.Log;
 
 import com.a2345.mimeplayer.Util.HttpTools;
 import com.a2345.mimeplayer.Util.PatternUtil;
 import com.a2345.mimeplayer.ValuePool.Definition;
 
+import org.apache.http.Header;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.net.URLDecoder;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import io.vov.vitamio.utils.StringUtils;
 
 /**
  * Created by fanzf on 2015/12/1.
@@ -29,9 +42,10 @@ public class TencentSource extends BaseSource {
     public String getJsonPlayUrl(String url) {
         String vid = null;
         try {
-            Log.e("gex", ".start.." + url);
-//            cdnRederect(url);
-            Log.e("gex", ".startddd.............");
+            String cdnurl = cdnRederect(url);
+            if (cdnurl != null && cdnurl.length() > 0) {
+                url = cdnurl;
+            }
             if (url.contains("vid=")) {
                 vid = PatternUtil.getValueForPattern(url, "vid=([0-9a-z]+)");
                 Log.e("parseurl", "1vid.." + vid);
@@ -62,43 +76,60 @@ public class TencentSource extends BaseSource {
         }
         return getSource(vid);
     }
+
+//    public String cdnRederect1(String url) {
+//
+//        BasicHttpParams httpParams = new BasicHttpParams();
+//        HttpConnectionParams.setConnectionTimeout(httpParams, 15000);
+//        HttpConnectionParams.setSoTimeout(httpParams, 15000);
+//        httpParams.setParameter("http.protocol.handle-redirects", false); // 默认不让重定向
+//        // 这样就能拿到Location头了
+//        DefaultHttpClient client = new DefaultHttpClient(httpParams);
+//        HttpGet doGet = new HttpGet(url);
+//        String cdnUrl = "";
+//        try {
+//            HttpResponse response = client.execute(doGet);
+//            if (response.getStatusLine().getStatusCode() == 302) {
+//                response.getEntity().getContentEncoding();
+//                cdnUrl = EntityUtils.toString(response.getEntity());
+//                Header header = response.getFirstHeader("Location");
+//                if (header.getValue() != null)
+//                    cdnUrl = header.getValue();
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            cdnUrl = "";
+//        }
+//        Log.e("gex", "cdnRederect1 :" + cdnUrl);
+//        return cdnUrl;
+//    }
+
+
     /**
      * @return 模拟请求，获取cdn地址
      */
     public String cdnRederect(String loadUrl) {
-        URL url = null;
         String cdnUrl="";
         try {
-            url = new URL(loadUrl);
-            URLConnection connection = url.openConnection();
-            Map<String, List<String>> headerFields = connection.getHeaderFields();
+            URL url1 = new URL(loadUrl);
+            HttpURLConnection connection =(HttpURLConnection)url1.openConnection();
+            connection.setRequestMethod("POST");
+            connection.setInstanceFollowRedirects(false);
             connection.connect();
-            Set<Map.Entry<String, List<String>>> entrySet = headerFields.entrySet();
-            Iterator<Map.Entry<String, List<String>>> iterator = entrySet.iterator();
-            while (iterator.hasNext()) {
-                Map.Entry<String, List<String>> next = iterator.next();
-                String key = next.getKey();
-                List<String> value = next.getValue();
-                Log.e("gex", "key :"+key+"   valus-size :" + value.toString());
-//                if (!StringUtils.isEmpty(key) && key.equals("Content-Type")) {
-//                    if (value != null)
-//                        Log.e("gex", "Content-Type :" + value.toString());
-//                    if (value != null && value.toString().contains("mpegurl")) {
-//                        isM3u8 = true;
-//                        mInfo.setVideoFormat("m3u8");
-//                        break;
-//                    }
-//                    if (value != null && value.toString().contains("mp4") || value.toString().contains("MP4") || value.toString().contains("Mp4")) {
-//                        mInfo.setVideoFormat("mp4");
-//                    } else {
-//                        mInfo.setVideoFormat("");
-//                    }
-//                }
+            if(connection.getResponseCode() == HttpURLConnection.HTTP_MOVED_TEMP){
+                List<String> Locations = connection.getHeaderFields().get("Location");
+                String b = null ;
+                for (String location : Locations) {
+                    int index = location.indexOf("src=http");
+                    b = location.substring(index + 1);
+                }
+                cdnUrl = URLDecoder.decode(b, "UTF-8");
+
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        Log.e("gex", "cdnRederect2 :" + cdnUrl);
         return cdnUrl;
     }
 
