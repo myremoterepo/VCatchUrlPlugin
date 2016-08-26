@@ -27,39 +27,69 @@ public class TencentSource extends BaseSource {
     public String getJsonPlayUrl(String url) {
         String vid = null;
         try {
-//            String htmlContent = HttpTools.getWebContent(url, null);
-//            Log.e("fan", "htmlContent.." + htmlContent);
-            cdnRederect(url);
-            /*if (url.contains("vid=")) {
+            String cdnurl = cdnRederect(url);
+            if (cdnurl != null && cdnurl.length() > 0) {
+                url = cdnurl;
+            }
+            if (url.contains("vid=")) {
                 vid = PatternUtil.getValueForPattern(url, "vid=([0-9a-z]+)");
                 Log.e("parseurl", "1vid.." + vid);
             } else {
-                htmlContent = HttpTools.getWebContent(url, null);
+                String htmlContent = HttpTools.getWebContent(url, null);
                 if (htmlContent.contains("VIDEO_INFO")) {
                     vid = getVid(htmlContent);
                     Log.e("parseurl", "2vid.." + vid);
                 } else {
-                    *//*url = url.replace("prev/", "cover/");
+                    /*url = url.replace("prev/", "cover/");
                     String com = PatternUtil.getValueForPattern(url, "(cover/(r/){0,1})");
                     Log.e("parseurl", "com.." + com);
-                    url = url.replace(com, "x/cover/");*//*
+                    url = url.replace(com, "x/cover/");*/
                     if (url.contains("prev/")) {
                         url = url.replace("prev/", "cover/");
                     }
-                    *//*if (url.contains("cover/")) {
+                    /*if (url.contains("cover/")) {
                         url = url.replace("cover/", "x/cover/");
-                    }*//*
+                    }*/
                     Log.e("fan", "url.." + url);
                     htmlContent = HttpTools.getWebContent(url, null);
                     Log.e("fan", "htmlContent.." + htmlContent);
                     vid = getVidFromHtml(htmlContent);
                 }
-            }*/
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
         return getSource(vid);
     }
+
+//    public String cdnRederect1(String url) {
+//
+//        BasicHttpParams httpParams = new BasicHttpParams();
+//        HttpConnectionParams.setConnectionTimeout(httpParams, 15000);
+//        HttpConnectionParams.setSoTimeout(httpParams, 15000);
+//        httpParams.setParameter("http.protocol.handle-redirects", false); // 默认不让重定向
+//        // 这样就能拿到Location头了
+//        DefaultHttpClient client = new DefaultHttpClient(httpParams);
+//        HttpGet doGet = new HttpGet(url);
+//        String cdnUrl = "";
+//        try {
+//            HttpResponse response = client.execute(doGet);
+//            if (response.getStatusLine().getStatusCode() == 302) {
+//                response.getEntity().getContentEncoding();
+//                cdnUrl = EntityUtils.toString(response.getEntity());
+//                Header header = response.getFirstHeader("Location");
+//                if (header.getValue() != null)
+//                    cdnUrl = header.getValue();
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            cdnUrl = "";
+//        }
+//        Log.e("gex", "cdnRederect1 :" + cdnUrl);
+//        return cdnUrl;
+//    }
+
+
     /**
      * @return 模拟请求，获取cdn地址
      */
@@ -79,10 +109,12 @@ public class TencentSource extends BaseSource {
                     b = location.substring(index + 1);
                 }
                 cdnUrl = URLDecoder.decode(b, "UTF-8");
+
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+        Log.e("gex", "cdnRederect2 :" + cdnUrl);
         return cdnUrl;
     }
 
