@@ -30,7 +30,7 @@ public class TencentSource extends BaseSource {
         String vid = null;
         try {
             Log.e("gex", ".start.." + url);
-            cdnRederect(url);
+//            cdnRederect(url);
             Log.e("gex", ".startddd.............");
             if (url.contains("vid=")) {
                 vid = PatternUtil.getValueForPattern(url, "vid=([0-9a-z]+)");
