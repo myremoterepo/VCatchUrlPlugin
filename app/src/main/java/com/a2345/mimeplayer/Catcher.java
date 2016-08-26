@@ -98,7 +98,7 @@ public class Catcher {
             source = new BaoFengSource();
         } else if (name.equals("wasu")) {
             source = new HuashuSource();
-        } else if (name.equals("mangguo")) {
+        } else if (name.equals("hunantv")) {
             source = new MangGuoSource();
         } else if (name.equals("sohu")) {
             source = new SouhuSource();

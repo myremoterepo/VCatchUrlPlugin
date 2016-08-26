@@ -1,6 +1,5 @@
 package com.a2345.mimeplayer.SourceContainer;
 
-import android.provider.Settings;
 import android.util.Log;
 
 import com.a2345.mimeplayer.Util.HttpTools;
@@ -15,21 +14,27 @@ public class HuashuSource extends BaseSource {
         String playUrl = "";
         JSONObject resultObj = new JSONObject();
         try {
-            if (url.contains("http://www.wasu.cn/wap")) {
-                url = url.replace("http://www.wasu.cn/wap", "http://www.wasu.cn/");
+            if (!url.contains("/wap/")) {
+                url = url.replace("http://www.wasu.cn/", "http://www.wasu.cn/wap/");
             }
             Log.i("info", "url-->:" + url);
             String content = HttpTools.getWebContent(url, null);
-            Log.i("info", "content-->:" + content);
-            JSONObject localObject = new JSONObject("{" + content.substring(content.indexOf("_playId"), content.indexOf("playKeyword") - 2) + "}");
-            String id = localObject.getString("_playId");
-            String urlIn = localObject.getString("_playUrl");
-            String key = localObject.getString("_playKey");
-            String category = localObject.getString("_playCategory");
-            url = String.format("http://www.wasu.cn/wap/Api/getVideoUrl/id/%s/key/%s/url/%s=", new Object[]{id, key, urlIn});
-            content = HttpTools.getWebContent(url, null);
-            playUrl = content.substring(content.indexOf("http"), content.indexOf("mp4") + 3) + "?vid=" + id + "&cid=" + category + "&version=PadPlayer_V1.4.0";
-            Log.i("info", playUrl);
+            int i1 = content.indexOf("videoInfo =");
+            int i2 = content.indexOf("}", i1);
+            String videoInfo = content.substring(i1, i2);
+            String vid = getValue(videoInfo, "vid");
+
+            String key = getValue(videoInfo, "key");
+            String _url = getValue(videoInfo, "url");
+            Log.e("fan", "vid.." + vid + "\nkey.." + key + "\n_url.." + _url);
+            String tmpUrl = "http://apiontime.wasu.cn/Auth/getVideoUrl?id=%1$s&key=%2$s&url=%3$s&type=jsonp&callback=?";
+            tmpUrl = String.format(tmpUrl, vid, key, _url);
+            Log.e("fan", "tmpUrl.." + tmpUrl);
+            content = HttpTools.getWebContent(tmpUrl, null);
+            Log.e("fan", "content.." + content);
+            int j = content.indexOf("\"") + 1;
+            playUrl =content.substring(j, content.indexOf("\"", j)).replace("\\", "");
+            Log.e("fan", "playUrl.." + playUrl);
             resultObj.put(Definition.NORMAL, playUrl);
         } catch (Exception e) {
             e.printStackTrace();
@@ -41,5 +46,14 @@ public class HuashuSource extends BaseSource {
 
     public String getJsonPlayUrlShort(String url) {
         return getJsonPlayUrl(url);
+    }
+
+    private String getValue(String content, String key) {
+        int i1 = content.indexOf(key);
+        int i2 = content.indexOf(":", i1);
+        int i3 = content.indexOf("'", i2) + 1;
+        int i4 = content.indexOf("'", i3);
+        return content.substring(i3, i4);
+
     }
 }

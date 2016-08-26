@@ -119,36 +119,95 @@ public class MainActivity extends Activity {
         mSourceList = (ListView) findViewById(R.id.source_list);
         mSourceListData = new ArrayList<>();
 
-        String name = "youku";
-        String type = "long";
-        String url = "http://v.youku.com/v_show/id_XMTY0OTExMDc2MA==.html?from=s1.8-3-1.1";
-        SourceInfo info = new SourceInfo(name, url, type);
-        mSourceListData.add(info);
-
-        name = "Test Player";
-        type = "test";
-        url = "http://pl.youku.com/playlist/m3u8?ts=1467105471&keyframe=1&vid=XMTYyMjE4MDkwNA==&sid=04671054729472053c9c2&token=9150&oip=1879991562&type=hd2&did=9bc64e589d4162d33c77f80a19dfe323&ctype=20&ev=1&ep=y6ub3LkuptUtHc0CoqXUCIa2r%2F0wztwO7klWoJiAp6KZAk5Sv%2B1kxUoC7UBNUq7m%0A";
+        String name = "Test Player";
+        String type = "test";
+        String url = "http://play2.kandian.360.cn/vod_xinwen/vod-media/1324763_3502394_20160818095725.m3u8";
         SourceInfo infoTest = new SourceInfo(name, url, type);
         mSourceListData.add(infoTest);
 
+        name = "youku";
+        type = "long";
+        url = "http://v.youku.com/v_show/id_XMTY0OTExMDc2MA==.html?from=s1.8-3-1.1";
+        SourceInfo info = new SourceInfo(name, url, type);
+        mSourceListData.add(info);
+
         name = "qq";
         type = "long";
-//        url = "http://v.qq.com/cover/7/7dxcpwu7xlr2304/8e0pd98BFvt.html?ptag=2345.tv";
-        url = "http://v.qq.com/cover/r/r11kl0o4vpdo3ah/g0019hf26el.html?ptag=2345.tv";
+        url = "http://v.qq.com/x/cover/vm3usmzs1wa5yo3/s0021bt1qpe.html?ptag=2345.cartoon";
         SourceInfo infoQQ = new SourceInfo(name, url, type);
         mSourceListData.add(infoQQ);
-
-        name = "letv";
-        type = "long";
-        url = "http://www.le.com/ptv/vplay/25337573.html";
-        SourceInfo infoLetv = new SourceInfo(name, url, type);
-        mSourceListData.add(infoLetv);
 
         name = "pptv";
         type = "long";
         url = "http://m.pptv.com/show/o4Fe3UWrG1m8OsY.html?rcc_id=wap_007";
         SourceInfo infoPPTV = new SourceInfo(name, url, type);
         mSourceListData.add(infoPPTV);
+
+        name = "cntv";
+        type = "long";
+        url = "http://tv.cntv.cn/video/VSET100261379617/8b1e3255e6c1428b9036cbe87d68393f";
+        SourceInfo infoCNTV = new SourceInfo(name, url, type);
+        mSourceListData.add(infoCNTV);
+
+        name = "1905";
+        type = "long";
+        url = "http://www.1905.com/vod/play/976938.shtml?fr=wwwmdb_data_playbutton_2_20140918";
+        SourceInfo infoM1905 = new SourceInfo(name, url, type);
+        mSourceListData.add(infoM1905);
+
+        name = "baofeng";
+        type = "long";
+        url = "http://www.baofeng.com/play/234/play-795734.html";
+        SourceInfo infoBaoFeng = new SourceInfo(name, url, type);
+        mSourceListData.add(infoBaoFeng);
+
+        name = "hunantv";
+        type = "long";
+        url = "http://www.mgtv.com/v/3/156506/f/1860458.html";
+        SourceInfo infoMangguo = new SourceInfo(name, url, type);
+        mSourceListData.add(infoMangguo);
+
+        name = "sohu";
+        type = "long";
+        url = "http://tv.sohu.com/20160102/n433271530.shtml";
+        SourceInfo infoSouhu = new SourceInfo(name, url, type);
+        mSourceListData.add(infoSouhu);
+
+        name = "yinyuetai";
+        type = "short";
+        url = "http://v.yinyuetai.com/video/2654289?f=SY-ZZLX-FT-3";
+        SourceInfo infoYinyuetai = new SourceInfo(name, url, type);
+        mSourceListData.add(infoYinyuetai);
+
+        name = "tudou";
+        type = "long";
+        url = "http://www.tudou.com/albumplay/k-mE2Y8SHpU/eqyKXOAN2FQ.html";
+        SourceInfo infoTudou = new SourceInfo(name, url, type);
+        mSourceListData.add(infoTudou);
+
+        name = "bilibili";
+        type = "long";
+        url = "http://www.bilibili.com/video/av1262543/index_1.html?from=2345_app";
+        SourceInfo infoBiLi = new SourceInfo(name, url, type);
+        mSourceListData.add(infoBiLi);
+
+        name = "ku6";
+        type = "short";
+        url = "http://v.ku6.com/show/9LsZ5BMm3ZoHHHuuLcQ88A...html?hpsrc=1_25_1_1_0";
+        SourceInfo infoKu6 = new SourceInfo(name, url, type);
+        mSourceListData.add(infoKu6);
+
+        name = "wasu";
+        type = "long";
+        url = "http://www.wasu.cn/Play/show/id/7818423";
+        SourceInfo infoHuashu = new SourceInfo(name, url, type);
+        mSourceListData.add(infoHuashu);
+
+        name = "letv";
+        type = "long";
+        url = "http://www.le.com/ptv/vplay/25337573.html";
+        SourceInfo infoLetv = new SourceInfo(name, url, type);
+        mSourceListData.add(infoLetv);
 
         name = "acfun";
         type = "long";
@@ -162,64 +221,11 @@ public class MainActivity extends Activity {
         SourceInfo infoFun = new SourceInfo(name, url, type);
         mSourceListData.add(infoFun);
 
-        name = "cntv";
-        type = "long";
-        url = "http://tv.cntv.cn/video/VSET100261379617/8b1e3255e6c1428b9036cbe87d68393f";
-        SourceInfo infoCNTV = new SourceInfo(name, url, type);
-        mSourceListData.add(infoCNTV);
-
-        name = "baofeng";
-        url = "http://www.baofeng.com/play/134/play-796134.html";
-        SourceInfo infoBaoFeng = new SourceInfo(name, url, type);
-        mSourceListData.add(infoBaoFeng);
-
-        name = "wasu";
-        type = "short";
-        url = "http://www.wasu.cn/Play/show/id/7234516?refer=2345.com";
-        SourceInfo infoHuashu = new SourceInfo(name, url, type);
-        mSourceListData.add(infoHuashu);
-
-        name = "hunantv";
-        type = "long";
-        url = "http://www.mgtv.com/v/3/156506/f/1860458.html";
-        SourceInfo infoMangguo = new SourceInfo(name, url, type);
-        mSourceListData.add(infoMangguo);
-
-        name = "sohu";
-        type = "long";
-        url = "http://tv.sohu.com/20150914/n421072256.shtml?txid=351f624a85d86201915c41c0e4d05d20";
-        SourceInfo infoSouhu = new SourceInfo(name, url, type);
-        mSourceListData.add(infoSouhu);
-
         name = "iqiyi";
         type = "short";
         url = "http://dispatcher.video.qiyi.com/common/shareplayer.html?vid=d4459703f7f58c271b37e55805a368ad&tvId=457472500&coop=coop_153_2345&bd=1&fullscreen=1&autoplay=0";
         SourceInfo infoIqiyi = new SourceInfo(name, url, type);
         mSourceListData.add(infoIqiyi);
-
-        name = "yinyuetai";
-        type = "short";
-        url = "http://www.yinyuetai.com/mv/video-url/656255";
-        SourceInfo infoYinyuetai = new SourceInfo(name, url, type);
-        mSourceListData.add(infoYinyuetai);
-
-        name = "ku6";
-        type = "short";
-        url = "http://m.ku6.com/show/l_ZftDWKMp-AGf95rXTOoQ...html";
-        SourceInfo infoKu6 = new SourceInfo(name, url, type);
-        mSourceListData.add(infoKu6);
-
-        name = "1905";
-        type = "long";
-        url = "http://www.1905.com/vod/play/976938.shtml?fr=wwwmdb_data_playbutton_2_20140918";
-        SourceInfo infoM1905 = new SourceInfo(name, url, type);
-        mSourceListData.add(infoM1905);
-
-        name = "tudou";
-        type = "long";
-        url = "http://www.tudou.com/albumplay/k-mE2Y8SHpU/eqyKXOAN2FQ.html";
-        SourceInfo infoTudou = new SourceInfo(name, url, type);
-        mSourceListData.add(infoTudou);
 
         name = "quanmin";
         type = "live";
@@ -256,12 +262,5 @@ public class MainActivity extends Activity {
         url = "92622685";
         SourceInfo infoKK = new SourceInfo(name, url, type);
         mSourceListData.add(infoKK);
-
-        name = "bilibili";
-        type = "long";
-        url = "http://www.bilibili.com/video/av1262543/index_1.html?from=2345_app";
-        SourceInfo infoBiLi = new SourceInfo(name, url, type);
-        mSourceListData.add(infoBiLi);
-
     }
 }

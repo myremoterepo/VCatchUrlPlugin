@@ -9,16 +9,14 @@ import com.a2345.mimeplayer.ValuePool.Definition;
 import org.json.JSONObject;
 
 public class Ku6Source extends BaseSource {
-
     // return a string playUrl
     public String getJsonPlayUrlShort(String url) {
         String playUrl;
-        String Ku6HTML;
         JSONObject resultObj = new JSONObject();
         try {
-            Ku6HTML = HttpTools.getWebContent(url, null);
-            if (Ku6HTML != null) {
-                String vid = PatternUtil.getValueForPattern(Ku6HTML, "var vid = '(.+)'");
+            if (url != null) {
+                String vid = PatternUtil.getValueForPattern(url.substring(url.lastIndexOf("/")), "/(.+).html");
+                Log.e("fan", "vid.." + vid);
                 String str2 = "http://v.ku6.com/fetch.htm?t=getVideo4Player&vid=";
                 String str3 = "&stype=mp4&cb=jQuery191011046156589873135_1427248273399";
                 long l = System.currentTimeMillis();

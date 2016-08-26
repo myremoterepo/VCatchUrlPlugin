@@ -9,6 +9,13 @@ import com.a2345.mimeplayer.ValuePool.Definition;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * Created by fanzf on 2015/12/1.
  */
@@ -22,6 +29,9 @@ public class TencentSource extends BaseSource {
     public String getJsonPlayUrl(String url) {
         String vid = null;
         try {
+            Log.e("gex", ".start.." + url);
+            cdnRederect(url);
+            Log.e("gex", ".startddd.............");
             if (url.contains("vid=")) {
                 vid = PatternUtil.getValueForPattern(url, "vid=([0-9a-z]+)");
                 Log.e("parseurl", "1vid.." + vid);
@@ -38,11 +48,12 @@ public class TencentSource extends BaseSource {
                     if (url.contains("prev/")) {
                         url = url.replace("prev/", "cover/");
                     }
-                    if (url.contains("cover/")) {
+                    /*if (url.contains("cover/")) {
                         url = url.replace("cover/", "x/cover/");
-                    }
-                    Log.e("parseurl", "url.." + url);
+                    }*/
+                    Log.e("fan", "url.." + url);
                     htmlContent = HttpTools.getWebContent(url, null);
+                    Log.e("fan", "htmlContent.." + htmlContent);
                     vid = getVidFromHtml(htmlContent);
                 }
             }
@@ -51,6 +62,46 @@ public class TencentSource extends BaseSource {
         }
         return getSource(vid);
     }
+    /**
+     * @return 模拟请求，获取cdn地址
+     */
+    public String cdnRederect(String loadUrl) {
+        URL url = null;
+        String cdnUrl="";
+        try {
+            url = new URL(loadUrl);
+            URLConnection connection = url.openConnection();
+            Map<String, List<String>> headerFields = connection.getHeaderFields();
+            connection.connect();
+            Set<Map.Entry<String, List<String>>> entrySet = headerFields.entrySet();
+            Iterator<Map.Entry<String, List<String>>> iterator = entrySet.iterator();
+            while (iterator.hasNext()) {
+                Map.Entry<String, List<String>> next = iterator.next();
+                String key = next.getKey();
+                List<String> value = next.getValue();
+                Log.e("gex", "key :"+key+"   valus-size :" + value.toString());
+//                if (!StringUtils.isEmpty(key) && key.equals("Content-Type")) {
+//                    if (value != null)
+//                        Log.e("gex", "Content-Type :" + value.toString());
+//                    if (value != null && value.toString().contains("mpegurl")) {
+//                        isM3u8 = true;
+//                        mInfo.setVideoFormat("m3u8");
+//                        break;
+//                    }
+//                    if (value != null && value.toString().contains("mp4") || value.toString().contains("MP4") || value.toString().contains("Mp4")) {
+//                        mInfo.setVideoFormat("mp4");
+//                    } else {
+//                        mInfo.setVideoFormat("");
+//                    }
+//                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return cdnUrl;
+    }
+
 
     private String getVidFromHtml(String htmlContent) {
         String vid;

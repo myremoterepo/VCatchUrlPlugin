@@ -42,7 +42,7 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         convertView = LayoutInflater.from(context).inflate(R.layout.item_list, null);
         TextView textView = (TextView)convertView.findViewById(R.id.title);
-        textView.setText(infos.get(position).getSourceName());
+        textView.setText("" + position + "/" + infos.get(position).getSourceName());
         return convertView;
     }
 }
