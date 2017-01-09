@@ -1,5 +1,11 @@
 package com.a2345.mimeplayer;
 
+import com.a2345.mimeplayer.Adapter.MyAdapter;
+import com.a2345.mimeplayer.Util.GoPlayException;
+import com.a2345.mimeplayer.ValuePool.Definition;
+import com.a2345.mimeplayer.ValuePool.SourceInfo;
+import com.a2345.mimeplayer.ValuePool.VideoUrlInfo;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -12,12 +18,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
-import com.a2345.mimeplayer.Adapter.MyAdapter;
-import com.a2345.mimeplayer.Util.GoPlayException;
-import com.a2345.mimeplayer.ValuePool.Definition;
-import com.a2345.mimeplayer.ValuePool.SourceInfo;
-import com.a2345.mimeplayer.ValuePool.VideoUrlInfo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -133,13 +133,16 @@ public class MainActivity extends Activity {
 
         name = "qq";
         type = "long";
-        url = "http://v.qq.com/x/cover/vm3usmzs1wa5yo3/s0021bt1qpe.html?ptag=2345.cartoon";
+//        url = "http://v.qq.com/x/cover/8ohpnw9xn06irsd.html?ptag=2345.moviepay";
+        url = "http://v.qq.com/x/cover/9j687ivvhjsqbzm.html?vid=d0021pz6zmn";
+//        url = "http://v.qq.com/x/cover/4h61zy68rn2moy4.html?ptag=2345.variety";
+//        url = "http://v.qq.com/x/page/n0021zrdqeh.html";
         SourceInfo infoQQ = new SourceInfo(name, url, type);
         mSourceListData.add(infoQQ);
 
         name = "pptv";
         type = "long";
-        url = "http://m.pptv.com/show/o4Fe3UWrG1m8OsY.html?rcc_id=wap_007";
+        url = "http://v.pptv.com/show/MdIPjPRayghr6fU.html?rcc_id=2345daohangcl?rcc_id=2345daohangneiye";
         SourceInfo infoPPTV = new SourceInfo(name, url, type);
         mSourceListData.add(infoPPTV);
 
