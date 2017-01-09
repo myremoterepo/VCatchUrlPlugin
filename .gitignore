@@ -1,12 +1,9 @@
 .gradle
 /local.properties
 .idea/
-.DS_Store
 *.iml
 /build
-/captures
-/Project
-/letv
+
 vitamio/build/generated/assets/
 vitamio/build/generated/res/
 vitamio/build/generated/source/aidl/
@@ -24,5 +21,4 @@ vitamio/build/intermediates/manifest/tmp/
 vitamio/build/intermediates/rs/
 vitamio/build/intermediates/shaders/
 vitamio/build/intermediates/transforms/mergeJavaRes/
-vitamio/build/tmp/
 
